@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: "Poppins", serif;
+    overflow: hidden;
+}
+:root{
+    --ma-d1: #080808;
+    --ma-d2: #131313;
+    --ma-g: #00ffee;
+    --ma-w: #fff;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: var(--ma-d1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    z-index: 999;
+}
+nav{
+     word-spacing: 13px; 
+     font-size: 15px;
+     padding-right: 90px;
+     z-index: 888;
+}
+.d1{
+     border-bottom: solid 2px #00ffee;
+     color: #00ffee;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    padding-left: 140px;
+    transition: 0.4s;
+    z-index: 889;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.logo span{
+    color: var(--ma-g);
+    text-shadow: #00ffee 0 0 15px;
+}
+.m1{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    color: azure;
+    font-size: 25px;
+    font-family: "Poppins", serif;
+}
+.m1 span{
+    color: #00ffee;
+}
+.m3{
+    width: 590px;
+    font-size: 12px;
+}
+.m4{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 20px;
+    word-spacing: 15px;
+}
+.o1{
+    border: solid #00ffee 1px;
+    border-radius: 30%;
+    padding: 5px;
+}
+.s2{
+    border: solid #00ffee 1px;
+    border-radius: 30%;
+    padding: 5px;
+}
+.o3{
+    border: solid #00ffee 1px;
+    border-radius: 30%;
+    padding: 5px;
+}
+.o4{
+    border: solid #00ffee 1px;
+    border-radius: 30%;
+    padding: 5px;
+}
+img{
+    width: 370px;
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 4px #00ffee;
+}
+.pre .f1{
+    background-color: #00ffee;
+    padding: 11px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    border-radius: 80px;
+    width: 70px;
+    text-align: center;
+    font-weight: 800;
+    box-shadow: #00ffee 0 0 10px 3px;
+    transition: 0.5s;
+}
+.f1:hover{
+    transform: scale(1.1);
+}
+.pre .f2{
+     color: var(--ma-g);
+     position: absolute;
+     top: 80%;
+     left: 16%;
+     width: 99px;
+     text-align: center;
+     border: solid 1px;
+     border-radius: 80px;
+     padding: 8px;
+     font-size: 13px;
+     letter-spacing: 1px;
+     font-weight: 600;
+     transition: 0.5s;
+}
+.f2:hover{
+     background-color: #00ffee;
+     color: #080808;
+     transform: scale(1.1);
+}
