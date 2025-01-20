@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3a444d;
+    font-family: "Poppins", serif;
+}
+html{
+    font-size: 65.5%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4;
+}
+a:hover{
+    color: black;
+}
+header{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+nav{
+    word-spacing: 20px;
+    padding-right: 37%;
+    font-size: 14px;
+}
+.logo{
+    margin-left: 8%;
+    font-size: 16px;
+    border: solid 2px ;
+    border-radius: 20px;
+    padding: 6px;
+}
+.m1{
+    position: absolute;
+    right: 80%;
+    top: 27px;
+    font-size: 21px;
+}
+.pre{
+    position: absolute;
+    left: 89%;
+    top: 3%;
+    font-size: 17px;
+    word-spacing: 20px;
+}
+.hj{
+   background-color: aliceblue;
+   width: 1000px;
+   height: 900px;
+   position: absolute;
+   left: 50%;
+   top: 75%;
+   transform: translate(-50%);
+   border-radius: 100%;
+   box-shadow: 0 0 40px 10px;
+}
+.pr{
+    position: absolute;
+    left: 64px;
+    bottom: 300px;
+    font-size: 21px;
+    color: aliceblue;
+}
+.pr p{
+     color: rgba(240, 248, 255, 0.658);
+     font-size: 15px;
+     width: 730px;
+     padding-top: 22px;
+}
+.a1{
+    position: absolute;
+    bottom: 190px;
+    left: 65px;
+    font-style: oblique;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    color: #3a444d;
+    border-radius: 60px;
+    padding: 13px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.582);
+}
+.a1:hover{
+    transform: scale(1.1) rotate(-9deg);
+}
+.a2{
+    position: absolute;
+    bottom: 196px;
+    left: 270px;
+    width: 160px;
+    font-style: oblique;
+    font-size: 15px;
+    border: solid 2px;
+    color: aliceblue;
+    border-radius: 60px;
+    padding: 14px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.582);
+    text-align: center;
+}
+.a2:hover{
+    transform: scale(1.1) rotate(9deg);
+}
+.img1{
+    position: absolute;
+    left: 66%;
+    width: 420px;
+    z-index: 4;
+}
